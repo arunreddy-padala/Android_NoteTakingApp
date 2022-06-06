@@ -35,6 +35,8 @@ fun NotesScreen(
         floatingActionButton = {
             FloatingActionButton(
                 onClick = {
+                    navController.navigate(com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.util.Screen.AddEditNoteScreen.route)
+
                 },
                 backgroundColor = MaterialTheme.colors.primary
             ) {
@@ -91,6 +93,10 @@ fun NotesScreen(
                         modifier = Modifier
                             .fillMaxWidth()
                             .clickable {
+                                navController.navigate(
+                                    com.plcoding.cleanarchitecturenoteapp.feature_note.presentation.util.Screen.AddEditNoteScreen.route +
+                                            "?noteId=${note.id}&noteColor=${note.color}"
+                                )
 
                             },
                         onDeleteClick = {
