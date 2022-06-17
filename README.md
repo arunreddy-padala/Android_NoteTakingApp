@@ -13,6 +13,12 @@ D) Divided the application based on features which provides easy code reusabilit
 E) Developed the application based on MVVM Clean Architecture which contains domain, presentation, and data components supporting multiple usecases
 and view models. Utilised Dagger Hilt for dependency injection. 
 
+F) Added unit test cases to test the ordering of the notes by tile, color and date either by ascending or desceding order. 
+
+G) Added instrumented test cases to test the functionality related to toggling the order selection button. 
+
+H) Added End to End tests that test the functionality related to saving a note, editing and saving it again. Also, tested functionality related to note ordering and whether it is displayed correctly on the main screen.  
+
 Home Screen: 
 
 <img width="370" alt="Screenshot 2022-06-07 at 11 33 06" src="https://user-images.githubusercontent.com/102451295/172473615-2fcca538-6e1c-4809-939f-e4daf2d8848b.png">
