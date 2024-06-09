@@ -1,23 +1,24 @@
-# Android_NoteTakingApp
+# NoteTakingApp_Android_Kotlin
 
-**Languages and Frameworks: Kotlin, MVVM Clean Architecture, SQLite, Jetpack Compose, Dagger Hilt** 
+This project presents a robust note-taking application designed with Kotlin and structured using the MVVM Clean Architecture. It incorporates SQLite for data management, Jetpack Compose for the UI, and Dagger Hilt for dependency injection, all within the Android Studio environment.
 
-A) Designed a note taking application that allows users to add new notes, delete and restore them as needed. 
+Technologies and Frameworks: Kotlin, MVVM Clean Architecture, SQLite, Jetpack Compose, Dagger Hilt
 
-B) Additionally, the application also supports functionality related to assigning pre-defined set of colors to notes, and sorting the notes based on title, date, color either by ascending or descending order.
+Features:
+- Note Management: Users can add, delete, and restore notes as needed.
+- Customization: Notes can be color-coded with a predefined set of colors.
+- Sorting Options: Notes can be sorted by title, date, or color in either ascending or descending order.
+- Persistent Storage: Utilizes SQLite database to store and retrieve notes.
+- Modular Design: Application is divided based on features which enhances code reusability.
 
-C) The application uses Android Studio's built-in SQLite database to store notes and retrieve them as required by the user. 
+  
+Testing:
+- Unit Testing: Includes tests for sorting notes by title, color, and date.
+- Instrumented Testing: Tests for UI interactions, such as toggling the order selection button.
+- End-to-End Testing: Covers full workflows such as saving, editing, and re-saving notes, as well as verifying correct display and order of notes on the main screen.
 
-D) Divided the application based on features which provides easy code reusability. 
 
-E) Developed the application based on MVVM Clean Architecture which contains domain, presentation, and data components supporting multiple usecases
-and view models. Utilised Dagger Hilt for dependency injection. 
 
-F) Added unit test cases to test the ordering of the notes by tile, color and date either by ascending or desceding order. 
-
-G) Added instrumented test cases to test the functionality related to toggling the order selection button. 
-
-H) Added End to End tests that test the functionality related to saving a note, editing and saving it again. Also, tested functionality related to note ordering and whether it is displayed correctly on the main screen.  
 
 
 
